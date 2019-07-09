@@ -1,1 +1,397 @@
+/* Start Body */
+body {
+    background-color: white; color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
 
+/* Start Debug */
+.bg-purple {
+    background-color: #5821A6;
+}
+.bg-lightpurple {
+    background-color: #973DF2;
+}
+/* End Debug */
+.containerlogo {
+    margin: auto;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+/* Start Container */
+.container {
+    margin: auto;
+    overflow: auto;
+    width: 90%;
+    height: 100%;
+}
+.containerfull {
+    /*margin: 100%;*/
+    width: 100% ;
+    background-color: #973DF2
+}
+/* End Container */
+
+/* Start Link */
+.link1 a {
+    color: white;
+}
+
+/* End Sekunder */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu */
+.menuprimer ul {
+    background-color: #973DF2;
+    border-radius: 0px;
+    margin-top: 0px;
+    text-align: center
+}
+.menuprimer li {
+    display: inline-block;
+    border-right: 1px solid #973DF2;
+    margin: 0 -4x;
+}
+.menuprimer a {
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none
+}
+.menuprimer a:hover {
+    background-color: #DFCCFF;
+    color: black;
+    text-decoration: none
+}
+.menuprimer .active {
+    background-color: #DFCCFF;
+    color: white;
+    text-decoration: none    
+} 
+/* End Menu*/
+
+/* Start Heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px 
+}
+h1 {
+    font-size: 28px
+}
+h2 {
+    font-size: 24px
+}
+h3 {
+    font-size: 18px
+}
+h4 {
+    font-size: 16px
+}
+h5 {
+    font-size: 14px
+}
+h6 {
+    font-size: 13px
+}
+/* End Heading*/
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #C4BBEB;
+    border: 1px solid#C4BBEB;
+    border-radius: 100px;
+    padding: 0px 0;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.jumbotron h1 {
+    font-size: 32px
+}
+
+/* End Jumbotrob */
+
+/* Start Kategori */
+.kategori {
+    text-align: center;
+    margin: 50px;
+}
+.kategori h3 {
+    background-color: #973DF2;
+    border: 1px solid #973DF2;
+    color: white;
+    border-radius: 0px;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+/* End Kategori */
+
+/* Start Temukan */
+.temukan h2 {
+    margin-top: 50px;
+    text-align: center
+}
+/* End Temukan */
+
+/*  Start fashion */
+.fashion {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*  End fashion */
+
+/*  Start Gadget Aksesoris */
+.aksesorisgadget {
+    margin-left: 75px;
+    margin-top: 50px
+}
+/*  End Gadget Aksesoris */
+
+/*  Start Rumah Tangga */
+.rumahtangga {
+    margin-right: 130px;
+    margin-top: 50px
+}
+/*  End Rumah Tangga */
+
+/*  Start Beauty */
+.beauty {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*  End beauty */
+
+/* Start Main */
+.mainhomeone {
+    float: left;
+    width: 40%;
+}
+.mainhometwo {
+    float: right;
+    width: 40%;
+}
+/* End Main */
+
+/* Start Menu Sekunder */
+.menusekunder {
+    background-color: #973DF2;
+    border-bottom: 1px solid #973DF2;
+    border-top: 1px solid #973DF2;
+    overflow: auto;
+    padding: 10px 0;
+    color: white;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.menusekunder a {
+    color: black
+}
+.menusekunder h4 {
+    font-size: 16px;
+    margin: 0 auto;
+    text-transform: uppercase
+}
+.menusekunder ul {
+    padding: 0
+}
+.menusekunder li {
+    list-style: disc
+}
+.menusekunderone, .menusekundertwo, .menusekunderthree {
+    float: left;
+    text-decoration: none
+}
+.menusekunderone a, .menusekundertwo a, .menusekunderthree a {
+text-decoration: none
+}
+.menusekunderone {
+    width: 40%
+}
+.menusekunderone a {
+    color: black
+}
+.menusekundertwo, .menusekunderthree {
+    width: 30%
+}
+.menusekunder li img {
+    vertical-align: middle
+}
+/* End Menu Sekunder */
+
+/* Start Menu Sekunder2 */
+.menusekunder2 {
+    margin-top: 0px
+}
+/* End Menu Sekunder2 */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+    background-color: #5821A6;
+    text-align: center;
+    border-bottom: 0px solid #973DF2;
+    border-top: 0px solid #973DF2;
+    padding: 0px ;
+    margin: 0%;
+    color: white;
+    width: 100%
+}
+/* End Copyright */
+
+.containercopyright {
+    width: 100% ;
+    background-color: #5821A6
+}
+
+/* Start Berita */
+.berita {
+    text-align: center;
+    margin: 50px
+}
+.berita h3 {
+    background-color: #973DF2;
+    border: 1px solid #973DF2;
+    color: white;
+    border-radius: 0px;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+/* End Berita */
+
+/* Start Tentang */
+.tentang {
+    margin-top: 0px
+}
+/* End Tentang */
+
+/* Start Kabar Dunia */
+.kabardunia h2 {
+    margin-top: 50px;
+    text-align: center
+}
+/* End Kabar Dunia */
+
+/*  Start Hiburan */
+.hiburan {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*  End Hiburan */
+
+/*  Start Kesehatan */
+.kesehatan {
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*  End Kesehatan */
+
+/*  Start Olahraga */
+.olahraga {
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*  End Olahraga */
+
+/*  Start politik */
+.politik {
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*  End Politik */
+
+/*
+.homepembayaran {
+    float: left;
+    width: 50%;
+    text-align: center
+}
+.boxheading{
+    background: url('atm.png')
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 0;
+    text-transform: uppercase
+}
+.boxheading h2 {
+    font-size: 14px;
+    margin: 0
+}
+
+.homekonfirmasi {
+    float: right;
+    width: 50%;
+    text-align: center
+}
+*/
+
+.teksgambar{
+    background-image: url('images/atm.png');
+    width: 640px;
+    height: 480px;
+    
+    }
+.teksgambar p{
+    padding: 430px 20px 30px;
+    color: white;
+    }
+
+.form {
+    text-align: center;
+    margin-top: 50px
+}
+.homepembayaran {
+    float: left;
+    width: 50%;
+    
+}
+.homekonfirmasi {
+    float: right;
+    width: 50%;
+}
+.boxheading {
+    background-color: #a6a6a6;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.boxheading h4 {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    color: white
+}
+.boxisi {
+    background-color: #d9d9d9
+    border: 1px solid #cfcfcf;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
