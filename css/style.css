@@ -184,10 +184,12 @@ h6 {
 .mainhomeone {
     float: left;
     width: 40%;
+    margin-top: 0px
 }
 .mainhometwo {
     float: right;
     width: 40%;
+    margin-top: 0px
 }
 /* End Main */
 
