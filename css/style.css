@@ -85,7 +85,7 @@ body {
     text-decoration: none
 }
 .menuprimer .active {
-    background-color: lightgrey
+    background-color: lightgrey;
     color: white;
     text-decoration: none    
 } 
@@ -341,8 +341,8 @@ text-decoration: none
     text-align: center
 }
 .boxheading{
-    background: url('atm.png')
-    border: 1px solid black;
+    
+    border: 1px solid #973DF2;
     padding: 10px 20px;
     margin: 0;
     text-transform: uppercase
@@ -386,7 +386,7 @@ text-decoration: none
 }
 .boxheading {
     background-color: #973DF2;
-    border: 1px solid white
+    border: 1px solid white;
     border-radius: 3px 3px 0 0;
     margin: 0;
     padding: 10px 20px;
@@ -408,13 +408,13 @@ text-decoration: none
 }
 
 .boxisi1 {
-    background-color: ##ceaaf1;
-    border: 1px solid ##ceaaf1;
+    background-color: #ceaaf1;
+    border: 1px solid #ceaaf1;
     border-right: white;
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
-    height: 370px
+    height: 370px;
 }
 
 /* artikel */
@@ -667,7 +667,7 @@ text-decoration: none
     margin: auto;
     overflow: auto;
     margin-right: 10px;
-    margin-left: 10px;black
+    margin-left: 10px black;
 }
 /*kategori*/
 
@@ -858,6 +858,7 @@ li{
 .judulpuisi {
   text-align: center;
   background-color: white;
+}
   
 
 .cintapertamatelahtiada  {
